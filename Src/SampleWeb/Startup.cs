@@ -16,6 +16,7 @@ namespace SampleWeb
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services )
         {
+            services.AddMvc();
             services.AddSingleton<ILocalizationService, LocalizationService>();
         }
 
@@ -23,11 +24,8 @@ namespace SampleWeb
         public void Configure(IApplicationBuilder app)
         {
             app.UseIISPlatformHandler();
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseStaticFiles();
+            app.UseMvcWithDefaultRoute();
         }
 
         // Entry point for the application.
