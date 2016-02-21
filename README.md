@@ -1,7 +1,7 @@
 ﻿HaojiLib.Localization
 ============
 
-A lightweight Localization library for ASP.NET 5 RC1
+A lightweight Localization library for ASP.NET 5
 
 
 
@@ -19,61 +19,59 @@ Please see the SampleWeb for reference.
 Folder structure
 --------------- 
 At this momenent, all localization contents are put into one json file under wwwroot\Localization\Localization.json file.  
- 
-Default language
-	
+
 Default language is the first one that defined in the Localization.json file.
 
 
 ###Localization.json samples
 ---------------  
-{
-  "Cultures": [ "en_US", "zh_CN" ],
-  "Resources": [
-    {
-      "Id": "appName",
-      "Values": [
-        "Test Web",
-        "测试网站"
-      ]
-    },
-    {
-      "Id": "Welcome",
-      "Values": [
-        "Welcome to use HaojiLib.Localization",
-        "欢迎使用HaojiLib.Localization"
-      ]
-    },
-    {
-      "Id": "Change_Language",
-      "Values": [
-        "Change Language:",
-        "选择语言："
-      ]
-    },
-    {
-      "Id": "Chinese",
-      "Values": [
-        "Chinese",
-        "简体中文"
-      ]
-    },
-    {
-      "Id": "English",
-      "Values": [
-        "English",
-        "英语"
-      ]
-    },
-    {
-      "Id": "Languages",
-      "Values": [
-        "This website supports {0} languages.",
-        "这个网站支持{0}种语言"
-      ]
-    }
-  ]
-}
+	{
+	  "Cultures": [ "en_US", "zh_CN" ],
+	  "Resources": [
+		{
+		  "Id": "appName",
+		  "Values": [
+			"Test Web",
+			"测试网站"
+		  ]
+		},
+		{
+		  "Id": "Welcome",
+		  "Values": [
+			"Welcome to use HaojiLib.Localization",
+			"欢迎使用HaojiLib.Localization"
+		  ]
+		},
+		{
+		  "Id": "Change_Language",
+		  "Values": [
+			"Change Language:",
+			"选择语言："
+		  ]
+		},
+		{
+		  "Id": "Chinese",
+		  "Values": [
+			"Chinese",
+			"简体中文"
+		  ]
+		},
+		{
+		  "Id": "English",
+		  "Values": [
+			"English",
+			"英语"
+		  ]
+		},
+		{
+		  "Id": "Languages",
+		  "Values": [
+			"This website supports {0} languages.",
+			"这个网站支持{0}种语言"
+		  ]
+		}
+	  ]
+	}
 
 Structure
 ---------------
