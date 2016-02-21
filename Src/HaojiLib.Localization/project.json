@@ -1,9 +1,9 @@
 {
   "version": "1.0.0-*",
-  "description": "HaojiLib.Localization Library",
+  "description": "Lightweight Localization Library for ASP.NET 5",
   "authors": [ "Alex Hou" ],
   "tags": [ "" ],
-  "projectUrl": "",
+  "projectUrl": "https://github.com/alexou1905/HaojiLib.Localization",
   "licenseUrl": "",
   "frameworks": {
     "net451": { },
