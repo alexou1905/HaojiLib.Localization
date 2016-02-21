@@ -9,10 +9,31 @@
       ]
     },
     {
+      "Id": "Welcome",
+      "Values": [
+        "Welcome to use HaojiLib.Localization",
+        "欢迎使用HaojiLib.Localization"
+      ]
+    },
+    {
+      "Id": "Change_Language",
+      "Values": [
+        "Change Language:",
+        "选择语言："
+      ]
+    },
+    {
       "Id": "Chinese",
       "Values": [
         "Chinese",
         "简体中文"
+      ]
+    },
+    {
+      "Id": "English",
+      "Values": [
+        "English",
+        "英语"
       ]
     }
   ]
