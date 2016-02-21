@@ -1,0 +1,19 @@
+﻿{
+  "Cultures": [ "en_US", "zh_CN" ],
+  "Resources": [
+    {
+      "Id": "appName",
+      "Values": [
+        "Test Web",
+        "测试网站"
+      ]
+    },
+    {
+      "Id": "Chinese",
+      "Values": [
+        "Chinese",
+        "简体中文"
+      ]
+    }
+  ]
+}
