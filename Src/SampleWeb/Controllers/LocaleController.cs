@@ -20,7 +20,7 @@ namespace SampleWeb.Controllers
         // GET: /<controller>/
         public IActionResult Change(String culture)
         {
-            locSvc.SetCulture(culture);
+            locSvc.Culture = culture;
             Response.Redirect(Request.Headers["Referer"]);
             return Content("OK");
         }

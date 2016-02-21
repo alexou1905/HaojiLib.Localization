@@ -35,6 +35,13 @@
         "English",
         "英语"
       ]
+    },
+    {
+      "Id": "Languages",
+      "Values": [
+        "This website supports {0} languages.",
+        "这个网站支持{0}种语言"
+      ]
     }
   ]
 }
