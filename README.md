@@ -7,8 +7,8 @@ A lightweight Localization library for ASP.NET 5 RC1
 
 ### Usage
 
--@Html.ActionLink(locSvc.Localize("English", "en_US"), "Change", "Locale", new { culture = "en_US" })
--@Html.ActionLink(locSvc.Localize("Chinese", "zh_CN"), "Change", "Locale", new { culture = "zh_CN" })
+	@Html.ActionLink(locSvc.Localize("English", "en_US"), "Change", "Locale", new { culture = "en_US" })
+	@Html.ActionLink(locSvc.Localize("Chinese", "zh_CN"), "Change", "Locale", new { culture = "zh_CN" })
 
 Index.cshtml
 
@@ -19,17 +19,13 @@ Please see the SampleWeb for reference.
 Folder structure
 --------------- 
 At this momenent, all localization contents are put into one json file under wwwroot\Localization\Localization.json file.  
-wwwroot\
-	Localization\
-	 Localization.json  
-  
-
+ 
 Default language
 	
-	Default language is the first one that defined in the Localization.json file.
+Default language is the first one that defined in the Localization.json file.
 
 
-Localization.json samples
+###Localization.json samples
 ---------------  
 {
   "Cultures": [ "en_US", "zh_CN" ],
@@ -112,5 +108,3 @@ public class LocaleController : Controller
         }
     }
 ```
-```
-
