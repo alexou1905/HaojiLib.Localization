@@ -7,8 +7,8 @@ A lightweight Localization library for ASP.NET 5 RC1
 
 ### Usage
 
-@Html.ActionLink(locSvc.Localize("English", "en_US"), "Change", "Locale", new { culture = "en_US" })
-@Html.ActionLink(locSvc.Localize("Chinese", "zh_CN"), "Change", "Locale", new { culture = "zh_CN" })
+-@Html.ActionLink(locSvc.Localize("English", "en_US"), "Change", "Locale", new { culture = "en_US" })
+-@Html.ActionLink(locSvc.Localize("Chinese", "zh_CN"), "Change", "Locale", new { culture = "zh_CN" })
 
 Index.cshtml
 
