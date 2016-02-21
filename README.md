@@ -3,7 +3,7 @@
 
 A lightweight Localization library for ASP.NET 5
 
-
+	Install-Package HaojiLib.Localization 
 
 ### Usage
 
